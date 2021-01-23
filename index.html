@@ -8,9 +8,6 @@
     <title> Frank's User Page</title>
 
     <style>
-      body {
-        background-color: rgb(253, 142, 30);
-      }
       
       h1 {
         color: rgb(92, 187, 48);
@@ -23,8 +20,10 @@
 <body>
 
 
+
 <h1 class="center"> Introduction</h1>
 
+<div class="intro">
   <p> Hello This is <b class="term">Zongchen li</b> and I am a senior student whose major is Mathematics and Economics and minor in Computer Science in UCSD.
     I enjoy coding and I think it is interesting to cooperate with other students for the same project. That is why I am taking CSE110 this quarter.</p>
   <aside>
@@ -35,6 +34,8 @@
   <p id="intro1"> I tried to learn to develop <strong>one personal project by React-native</strong>, which is a simple restaurant-searching project that is similar to seraching function of yelp. By learning from online courses, 
     I <em>used the free API </em>from "yelp" to get data of restaurants in one region and built the search bar for users to search photos of restaurant they intersted in.</p>
  
+  </div>
+    
   <br>
   <br>
   <br>
@@ -127,7 +128,7 @@
     <br>
     <br>
   
-<p>What is my favoriate fruit? </p>
+<p class="dash">What is my favoriate fruit? </p>
   <picture>
   <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="My favoriate fruit - Orange"> 
   </picture>
@@ -137,7 +138,7 @@
     <br>
     <br>
   
-  <p>Where I want to go the most? </p>
+  <p  class="unit1">Where I want to go the most? </p>
   <a class="highlight" href="https://statics.dujiabieshu.com/statics/manager/ueditor/php/upload/image/20190215/7920300b1616d55de7da86f6b3de14bc137130.jpg"> 
     The place I want to go the most:
   </a>
@@ -146,14 +147,14 @@
        <br>
  
   
-  <p>When do I want to go? </p>
+  <p class="unit2">When do I want to go? </p>
    <input type="month" id="bdaymonth" name="bdaymonth">
   <input type="time" id="appt" name="appt">
   <br>
     <br>
  <br> 
   
-  <p style="text-align:center;color:blue;">When is my favorite color? </p>
+  <p class="unit3" style="text-align:center;color:blue;">When is my favorite color? </p>
    <input type="color" id="favcolor" name="favcolor">
     <br>
   <br>
@@ -192,7 +193,7 @@
 
   <br>
   <br>
-  <div>
+  <div class="unit_Relative">
    <h4> Rules that makes life balanced:</h4>  
      <hr>
    <ol>
@@ -202,6 +203,8 @@
       <li> Have plan for things in the future and work on them step by step. </li>
      <li> Be positive and make the life  <i>be positive.</i>  </li>
   </ol>
+  <p > There are more rules in our lives and it is important to find them.
+    <span class="unit_Relative_Span"> rules above are found in my life. </span></p>
   </div>
   
   <figure>
@@ -212,8 +215,11 @@
   <br>
     <br>
   
+    <div>
+      <div class="margin1">
   <p>Thank you for viewing my self page! Please answer some questions for me if you have space time:</p>
   
+  </div>>
      <p>How do you think of this website?</p>
   <button>Great</button>
   <button>Bad</button>
@@ -266,7 +272,8 @@
   
   <br> 
  <br>
-  
+ </div> 
+
   <p>Thank you! Please register if you want for following information of updating!</p>
   <div>
   <form action="/search.cgi" method="get" class="form-example">

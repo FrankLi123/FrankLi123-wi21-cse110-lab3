@@ -9,6 +9,7 @@
   #intro1 {
     text-align: center;
     color: rgb(119, 0, 255);
+
   }
 
   /*Universal Selector*/
@@ -33,28 +34,89 @@
  /*Selevtor List(element,element)*/
   h3, h4 {
     text-align: center;
-    color: rgb(0, 102, 255);
+    color: hsla(120,100%,75%,0.3);
   }
 
 
   
 /*Descendant Combinator */
 div p {
-  background-color: rgb(189, 231, 255);
+  background-color:#FFF;
+  color: hsl(0, 40%, 44%);
 }
 
 
 /*Descendant Combinator*/
   body > p {
-    background-color: rgb(226, 226, 198);
+    background-color:#a12170;
   }
 
 /*Adjacent Sibling combinator*/
   h2 + h3 {
-    background-color: rgb(150, 252, 92);
+    background-color: rgba(150, 252, 92);
   }
 
 /* Combining Two Selectors*/
   .combin.combin-red {
-       border-color: rgb(236, 132, 62);
+       border-color: rgba(236, 132, 62);
      }
+
+
+/* Border: -style -color -with -radius*/
+     p.dash {
+       border-style: dashed;
+       border-width: 5px;
+       border-color:green;
+       border-radius: 25% 10%;
+     }
+
+/* Unit 3absolute */
+     p.unit1 {
+      line-height: 15mm;
+      font-size: 10mm;
+    }
+
+    p.unit2{
+      line-height: 0.4in;
+      font-size: 0.8in;
+  }
+
+  p.unit3{
+    line-height: 0.4in;
+    font-size: 0.8in;
+}
+
+
+/* Unit 3relative */
+    div.unit_Relative {
+      font-size: 20px;
+      border: 2px solid rgb(247, 89, 89);
+    }
+    
+    span.unit_Relative_Span {
+      font-size: 1ex;
+    }
+
+
+  /*box model */
+    div.intro {
+      width: 140px;
+      margin: 14px;
+      border: 10px red;
+      padding: 42px;
+    }
+
+
+  /*margin*/
+  div.margin1{
+    margin: 50px;
+    border: 2px blue;
+  }
+
+  div.margin1{
+    margin-right: 160px;
+  margin-bottom: 90px;
+  margin-top: 80px;
+  margin-left: 70px;
+  background-color: lightblue;
+}

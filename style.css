@@ -1,0 +1,60 @@
+
+/*Class Selector*/
+.center {
+    color: yellow;
+    text-align: center;
+  }
+
+/*ID selector*/
+  #intro1 {
+    text-align: center;
+    color: rgb(119, 0, 255);
+  }
+
+  /*Universal Selector*/
+  * {
+    text-align: center;
+  }
+
+
+/*element selector*/
+  p {
+    font: Arial, sans-serif;
+  }
+
+/*Pseudo-class Selector*/
+  a.highlight:hover {
+    color: #a12170;
+  } 
+
+
+ /* Grouping/ Combinators*/
+
+ /*Selevtor List(element,element)*/
+  h3, h4 {
+    text-align: center;
+    color: rgb(0, 102, 255);
+  }
+
+
+  
+/*Descendant Combinator */
+div p {
+  background-color: rgb(189, 231, 255);
+}
+
+
+/*Descendant Combinator*/
+  body > p {
+    background-color: rgb(226, 226, 198);
+  }
+
+/*Adjacent Sibling combinator*/
+  h2 + h3 {
+    background-color: rgb(150, 252, 92);
+  }
+
+/* Combining Two Selectors*/
+  .combin.combin-red {
+       border-color: rgb(236, 132, 62);
+     }

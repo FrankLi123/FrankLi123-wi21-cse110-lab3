@@ -1,12 +1,11 @@
 
 /*Class Selector*/
 .center {
-    color: yellow;
     text-align: center;
   }
 
 /*ID selector*/
-  #intro1 {
+  #intro2_1 {
     text-align: center;
     color: rgb(119, 0, 255);
 
@@ -40,14 +39,13 @@
 
 /*Descendant Combinator */
 div p {
-  background-color:#FFF;
   color: hsl(0, 40%, 44%);
 }
 
 
 /*Descendant Combinator*/
   body > p {
-    background-color:#a12170;
+    background-color:#e3f4fa;
   }
 
 /*Adjacent Sibling combinator*/
@@ -62,7 +60,7 @@ div p {
 
 
 /* Border: -style -color -with -radius*/
-     p.dash {
+     p.intro2_2 {
        border-style: dashed;
        border-width: 5px;
        border-color:green;
@@ -72,22 +70,22 @@ div p {
 /* Unit 3absolute */
      p.unit1 {
       line-height: 15mm;
-      font-size: 10mm;
+      font-size: 7mm;
     }
 
     p.unit2{
       line-height: 0.4in;
-      font-size: 0.8in;
+      font-size: 0.4in;
   }
 
   p.unit3{
     line-height: 0.4in;
-    font-size: 0.8in;
+    font-size: 0.3in;
 }
 
 
 /* Unit 3relative */
-    div.unit_Relative {
+    #unit_Relative {
       font-size: 20px;
       border: 2px solid rgb(247, 89, 89);
     }
@@ -97,22 +95,22 @@ div p {
     }
 
 
-  /*box model
-    div.intro {
+ 
+    #intro1 {
       width: 140px;
       margin: 14px;
       border: 10px red;
       padding: 42px;
     }
- */
+ 
 
   /*margin*/
-  div.margin1{
+  #endThanks{
     margin: 50px;
     border: 2px blue;
   }
 
-  div.margin1{
+  #endQuestion{
     margin-right: 160px;
   margin-bottom: 90px;
   margin-top: 80px;

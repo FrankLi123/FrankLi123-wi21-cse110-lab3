@@ -192,3 +192,8 @@ span {
   grid-template-columns: auto auto auto;
   padding: 5px;
 }
+
+.shortMargin{
+ margin: 15px 30px 35px 80px;
+
+}

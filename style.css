@@ -14,13 +14,14 @@
 
   /*Universal Selector*/
   * {
-    text-align: center;
+    background-color:#FFF;
+        font: Arial, sans-serif;
   }
 
 
 /*element selector*/
   p {
-    font: Arial, sans-serif;
+   font-family: 'Sofia';
   }
 
 /*Pseudo-class Selector*/
@@ -37,8 +38,6 @@
     color: hsla(120,100%,75%,0.3);
   }
 
-
-  
 /*Descendant Combinator */
 div p {
   background-color:#FFF;
@@ -98,14 +97,14 @@ div p {
     }
 
 
-  /*box model */
+  /*box model
     div.intro {
       width: 140px;
       margin: 14px;
       border: 10px red;
       padding: 42px;
     }
-
+ */
 
   /*margin*/
   div.margin1{

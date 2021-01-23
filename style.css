@@ -66,7 +66,7 @@ div p {
 
 
 /* Border: -style -color -with -radius*/
-     p.intro2_2 {
+     intro2_2 {
        border-style: dashed;
        border-width: 5px;
        border-color:green;
@@ -102,7 +102,7 @@ div p {
 
 
  
-    #intro1 {
+    .intro1 {
       width: 140px;
       margin: 14px;
       border: 10px red;

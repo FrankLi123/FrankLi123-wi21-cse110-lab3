@@ -33,6 +33,9 @@
     color: #a12170;
   } 
 
+a active:active {
+  color: purple;
+}
 
  /* Grouping/ Combinators*/
 
@@ -102,7 +105,7 @@ div p {
 
  
     .intro1 {
-      width: 400px;
+      width: 700px;
       margin: 14px;
       border: 60px red;
       padding: 25px;
@@ -111,6 +114,7 @@ div p {
 
   /*margin*/
   .endThanks{
+       position: relative;
     margin: 50px;
     border: 2px blue;
   }
@@ -121,4 +125,49 @@ div p {
   margin-top: 80px;
   margin-left: 70px;
   background-color: lightblue;
+}
+
+
+
+
+.experience {
+    height: 225px;
+    width: 45%;
+     padding-right: 40px;
+  padding-bottom: 45px;
+  padding-top: 60px;
+  padding-left: 90px;
+}
+
+li {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+
+.intro3 {
+      position: static;
+  width: 600px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.flex1 {
+  display: flex;
+  background-color: darkBlue;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  Media Query */
+@media only screen  {
+  body {
+    background-color: blue;
+  }
 }

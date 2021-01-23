@@ -39,7 +39,8 @@ Do you have any suggestions for the future adjustment of our planning  ?
 Part2:
 -Check weekly tasks:(timed in 5 minutes)
   - understand the goals needed to achieve.
-  - 
+  - understand the current progress of our team
+  
 -BrainStorming (timed in 10 minutes)
   -what are some good ideas for project?
   -How to assign each task of project?

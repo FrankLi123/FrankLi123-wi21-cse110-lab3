@@ -13,7 +13,6 @@
 /*ID selector*/
   intro2_1 {
     text-align: center;
-    color: rgb(119, 0, 255);
 
   }
 
@@ -67,10 +66,10 @@ div p {
 
 /* Border: -style -color -with -radius*/
      intro2_2 {
-       border-style: dashed;
-       border-width: 5px;
-       border-color:green;
-       border-radius: 25% 10%;
+       border-style: solid;
+       border-width: 8px;
+       border-color:blue;
+       border-radius: 45% 30%;
      }
 
 /* Unit 3absolute */
@@ -103,20 +102,20 @@ div p {
 
  
     .intro1 {
-      width: 140px;
+      width: 400px;
       margin: 14px;
-      border: 10px red;
-      padding: 42px;
+      border: 60px red;
+      padding: 25px;
     }
  
 
   /*margin*/
-  #endThanks{
+  .endThanks{
     margin: 50px;
     border: 2px blue;
   }
 
-  #endQuestion{
+  .endQuestion{
     margin-right: 160px;
   margin-bottom: 90px;
   margin-top: 80px;

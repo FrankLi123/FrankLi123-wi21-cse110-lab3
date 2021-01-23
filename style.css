@@ -166,7 +166,7 @@ span {
 }
 
 /*  Media Query */
-@media only screen  {
+@media only screen and (max-width: 1000px)  {
   body {
    
   }
